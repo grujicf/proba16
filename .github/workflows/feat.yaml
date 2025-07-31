@@ -11,5 +11,6 @@ jobs:
     steps:
       - name: Hello world
         run: echo "Hi all!"
+      - uses: actions/checkout@v4.2.2
       - name: List files
         run: ls
