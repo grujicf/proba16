@@ -11,3 +11,5 @@ jobs:
     steps:
       - name: Hello world
         run: echo "Hi all!"
+      - name: List files
+        run: ls
